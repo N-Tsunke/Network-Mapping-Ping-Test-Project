@@ -49,7 +49,6 @@ Identifying connected devices ensures proper connectivity, correct configuration
 ---
 
 # Step 2: Ping Router 
-
 ## What It Shows  
 
 Testing connection to your router (internal network).
@@ -61,9 +60,8 @@ Testing connection to your router (internal network).
 * **Reply received:** Confirms the computer can reach the router.  
 * **Time (ms):** Shows latency to the router. Lower is better (usually 1–5ms for local networks).  
 * **No packet loss:** Indicates a stable internal connection.  
-
 # Interpretation  
-* Your local network is working correctly.
+Local network is working correctly.
 
 ---
 
