@@ -34,9 +34,6 @@ Devices in the network environment:
 
 ---
 
-### Step 2: Verify IP Configuration
+### Step 2: Run Ping Tests
 
-Open **Command Prompt** and execute:
 
-```bash
-ipconfig
