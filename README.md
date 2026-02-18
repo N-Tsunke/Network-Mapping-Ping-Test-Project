@@ -49,7 +49,9 @@ Identifying connected devices ensures proper connectivity, correct configuration
 ---
 
 ### Step 2: Ping Router (`ping-router.png`)
-# What It Shows  
+
+## What It Shows  
+
 Testing connection to your router (internal network).
 
 **Screenshot:**  
