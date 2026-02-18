@@ -48,7 +48,7 @@ Identifying connected devices ensures proper connectivity, correct configuration
 
 ---
 
-### Step 2: Ping Router (`ping-router.png`)
+# Step 2: Ping Router (`ping-router.png`)
 
 ## What It Shows  
 
