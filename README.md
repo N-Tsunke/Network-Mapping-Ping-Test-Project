@@ -27,7 +27,7 @@ Devices in the network environment:
 - **Computer (IPv4 Address):** 172.20.6.168  
 
 **Screenshot:**  
-[Identifying Router]<<img width="461" height="33" alt="Step 1,Identifying Router (Default Gateway)" src="https://github.com/user-attachments/assets/3ce15e0f-eb10-430a-bc5f-ee4c9dd57cef" />
+[Identifying Router]<img width="461" height="33" alt="Step 1,Identifying Router (Default Gateway)" src="https://github.com/user-attachments/assets/3ce15e0f-eb10-430a-bc5f-ee4c9dd57cef" />
 >
 ---
 
