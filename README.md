@@ -1,4 +1,4 @@
-# Network-Mapping-Ping-Test-Project
+# Network-Mapping & Ping-Test-Project
 
 ---
 
@@ -48,7 +48,7 @@ Identifying connected devices ensures proper connectivity, correct configuration
 
 ---
 
-# Step 2: Ping Router (`ping-router.png`)
+# Step 2: Ping Router 
 
 ## What It Shows  
 
@@ -73,7 +73,7 @@ Testing connection to your router (internal network).
 * Testing connection to the internet.
 
 **Screenshot:**  
-<img width="543" height="127" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/ec3a01ab-601a-45bc-8724-0fc3209bae82" />
+<<img width="516" height="216" alt="Step 3 Google" src="https://github.com/user-attachments/assets/5b5fe35c-a856-4ee0-a5fb-65691627e54e" />
 
 # Key Observations  
 * **Reply received:** Confirms that the computer can reach an external server.  
