@@ -1,114 +1,149 @@
-# Technical Support Fundamentals – Windows Troubleshooting Report
-
-# Windows Troubleshooting Practical Task
-
-This repository documents a step-by-step Windows troubleshooting exercise, including system checks, simulating an internet disconnection, and performing troubleshooting steps to restore connectivity.  
+# Network-Mapping & Ping-Test-Project
 
 ---
 
-## PART 1: System Check
+## Project Overview
 
-### 1. Check System Specifications
+This project demonstrates applied networking knowledge by mapping a home network, testing connectivity, and analyzing results using TCP/IP concepts.
 
-**Steps:**
-1. Note the following information:  
-   - OS Name  
-   - Version  
-   - System Manufacturer  
-   - System Model  
-   - Processor  
-   - Installed RAM  
-   - System Type  
+**Objectives:**
+
+- Map a home network topology
+- Identify connected devices and IP configurations
+- Test local and internet connectivity using `ping`
+- Explain DNS, ICMP, and routing
+- Document findings in a professional portfolio format
+
+---
+
+# Part 1: Network Mapping
+
+### Step 1: Identify Connected Devices
+
+Devices in the network environment:
+
+- **Internet**  
+- **Wi-Fi Router (Default Gateway):** 172.20.6.1  
+- **Computer (IPv4 Address):** 172.20.6.168  
+
+## What It Shows  
+
+* The **Computer (172.20.6.168)** sends and receives data.  
+* The **Wi-Fi Router (172.20.6.1)** acts as the default gateway and directs traffic.  
+* The **Internet** provides access to external networks and services.  
+
+This shows the full communication path from the computer to the router and then to the internet.
 
 **Screenshot:**  
-[Open System Information]<img width="1487" height="830" alt="Open System Information" src="https://github.com/user-attachments/assets/33fce64f-7fbd-42ff-ad28-e124ab3d4650" />
+<img width="543" height="127" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/ec3a01ab-601a-45bc-8724-0fc3209bae82" />
 
+## Why It Is Important  
+
+* **Troubleshooting:** Helps identify whether the issue is with the computer, router, or internet connection.  
+* **Correct Configuration:** Confirms the correct IP address and default gateway are set.  
+* **Network Communication:** Demonstrates how devices communicate within a network.  
+* **Security:** Helps detect unknown or unauthorized devices.  
+
+Identifying connected devices ensures proper connectivity, correct configuration, and reliable network performance.
 
 ---
 
-### 2. Check Network Status
+# Step 2: Ping Router 
+## What It Shows  
 
-**Option A: Using Settings**
-1. Check network status (Connected / Not connected).  
+Testing connection to your router (internal network).
 
 **Screenshot:**  
-[Network Status]<img width="1434" height="779" alt="Network Status (Connected or Disconnected)" src="https://github.com/user-attachments/assets/1b437a67-1a09-4e29-be5a-ce921c47c7c0" />
+<img width="474" height="202" alt="Step 2 Router" src="https://github.com/user-attachments/assets/b4c49882-ef30-4972-9d1a-052cddd19857" />
 
-
-**Option B: Using Command Prompt**  
-1. Note the following information:  
-   - IPv4 Address  
-   - Subnet Mask  
-   - Default Gateway  
-
-**Screenshot:**
-[Command Prompt Network Info](Using Command Prompt.png)
+## Key Observations  
+* **Reply received:** Confirms the computer can reach the router.  
+* **Time (ms):** Shows latency to the router. Lower is better (usually 1–5ms for local networks).  
+* **No packet loss:** Indicates a stable internal connection.  
+# Interpretation  
+Local network is working correctly.
 
 ---
 
-## PART 2: Simulate a Basic Issue (Internet Disconnection)
+# Step 3: Ping Google 
 
-**Steps to Simulate Internet Disconnection:**
-- Turn off Wi-Fi manually 
-- Disable the network adapter:  
-  
-
-**Screenshot:** 
-[Internet Disconnected]<img width="1120" height="592" alt="Check Physical Adapter Status" src="https://github.com/user-attachments/assets/4ecff3f6-a96a-46bb-840d-fa6dbd1ef2c8" />
-
----
-
-## PART 3: Troubleshooting Steps
-
-### Step 1: Check Physical / Adapter Status
-1. Ensure Wi-Fi is turned ON.  
-- Disable the network adapter: 
-
+## What It Shows  
+* Testing connection to the internet.
 
 **Screenshot:**  
-[Check Physical Adapter Status]<img width="1127" height="627" alt="Physical Adapter Status After" src="https://github.com/user-attachments/assets/0c9ca71d-80cf-4a87-8ff5-4b2eb16fe1bb" />
+<img width="516" height="216" alt="Step 3 Google" src="https://github.com/user-attachments/assets/5b5fe35c-a856-4ee0-a5fb-65691627e54e" />
+
+# Key Observations  
+* **Reply received:** Confirms that the computer can reach an external server.  
+* **Time (ms):** Measures latency to the server (usually 20–50ms for nearby servers).  
+* **No packet loss:** Indicates a stable internet connection.  
+
+# Interpretation  
+Computer has a working internet connection.
 
 ---
 
-### Step 2: Run Network Troubleshooter  
-1. follow prompts.  
+# Network Diagram 
+
+## What It Shows  
+* A visual layout of the home network.
 
 **Screenshot:**  
-[Network Troubleshooter Results<<img width="1446" height="797" alt="Run Network Troubleshooter" src="https://github.com/user-attachments/assets/8865fdc5-75ab-4bd9-8b98-ca9cf2036116" />
+<img width="1024" height="1024" alt="Network Diagram 1" src="https://github.com/user-attachments/assets/7081608e-89f9-4296-bbb1-42bcd9a7c525" />
+
+## Components Included  
+* Internet Connection  
+* Router  
+* Router (172.20.6.1)  
+* Computer (172.20.6.168)  
+
+## Why It’s Important  
+* Helps visualize how devices are connected.  
+* Useful for troubleshooting and documentation.
 
 ---
 
-### Step 3: Use Command Prompt to Fix
-1. Open Command Prompt as Administrator  
-2. Run the following commands:
-[Command Prompt Results] <img width="981" height="517" alt="Using Command Prompt" src="https://github.com/user-attachments/assets/4dacade2-ee46-460b-9e0e-99dedacb12f4" />
+# Project Summary  
 
+By combining IP configuration, ping tests, and a network diagram, this project demonstrates the ability to:
 
-## Conclusion
-
-The internet connectivity issue was successfully diagnosed and resolved using a structured troubleshooting approach.
-
-Steps followed:
-
-1. Verified system specifications  
-2. Confirmed internet disconnection  
-3. Checked physical network adapter status  
-4. Used Command Prompt networking tools  
-5. Ran Windows Network Troubleshooter  
-
-
-## Key Learning Outcomes
-
-- Learned how to check system specifications  
-- Verified network connectivity using command-line tools  
-- Simulated a network issue  
-- Applied troubleshooting steps to restore connectivity  
+* Identify device network settings  
+* Verify internal connectivity (router communication)  
+* Verify external connectivity (internet access)  
+* Document network layout for troubleshooting or analysis  
 
 ---
 
+# Key Learning Outcomes  
 
-## Author
+* Mapped and documented a home network  
+* Verified IP configuration and default gateway  
+* Tested connectivity to router and internet  
+* Validated DNS functionality  
+* Applied TCP/IP and ICMP concepts  
+* Interpreted routing and latency results  
 
-Nthabiseng Tsunke  
-IT Support Learnership – CAPACITI  
-The Bits and Bytes of Computer Networking
+---
+
+# Tools Used  
+
+* Windows Operating System  
+* Command Prompt  
+* Wi-Fi Router  
+* Internet Service Provider (ISP)  
+* GitHub  
+
+---
+
+# Conclusion  
+
+This project successfully demonstrates practical networking knowledge.
+
+The computer (**172.20.6.168**) successfully communicated with the router (**172.20.6.1**) and accessed the internet, confirming:
+
+* Proper IP configuration  
+* DNS resolution  
+* Routing functionality  
+
+This assessment reflects applied troubleshooting skills aligned with professional IT support practices
+
