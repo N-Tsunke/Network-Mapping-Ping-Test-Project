@@ -92,8 +92,7 @@ Computer has a working internet connection.
 <img width="1024" height="1024" alt="Network Diagram 1" src="https://github.com/user-attachments/assets/7081608e-89f9-4296-bbb1-42bcd9a7c525" />
 
 ## Components Included  
-* Internet Connection  
-* Router  
+* Internet Connection    
 * Router (172.20.6.1)  
 * Computer (172.20.6.168)  
 
