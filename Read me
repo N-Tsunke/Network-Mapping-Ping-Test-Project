@@ -93,7 +93,7 @@ Computer has a working internet connection.
 
 ## Components Included  
 * Internet Connection  
-* Router  
+* Router (172.20.6.1)  
 * Computer (172.20.6.168)  
 
 ## Why It’s Important  
