@@ -50,8 +50,8 @@ Identifying connected devices ensures proper connectivity, correct configuration
 
 ### Step 2: Ping Router (`ping-router.png`)
 
-## What It Shows  
-* Testing connection to your router (internal network).
+# What It Shows  
+Testing connection to your router (internal network).
 
 **Screenshot:**  
 <img width="543" height="127" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/ec3a01ab-601a-45bc-8724-0fc3209bae82" />
