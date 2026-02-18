@@ -145,5 +145,3 @@ The computer (**172.20.6.168**) successfully communicated with the router (**172
 * DNS resolution  
 * Routing functionality  
 
-This assessment reflects applied troubleshooting skills aligned with professional IT support practices
-
