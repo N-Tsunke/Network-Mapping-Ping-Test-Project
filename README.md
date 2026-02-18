@@ -27,7 +27,8 @@ Devices in the network environment:
 - **Computer (IPv4 Address):** 172.20.6.168  
 
 **Screenshot:**  
-[Identifying Router]<<img width="746" height="124" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/9c59fe64-935f-41cc-94d9-5f48aba08963" />
+[Identifying Router]<img width="746" height="124" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/bcd7ad8f-c04c-412a-a1dd-4c154d2b12b8" />
+>
 >
 
 ---
