@@ -55,7 +55,7 @@ Identifying connected devices ensures proper connectivity, correct configuration
 Testing connection to your router (internal network).
 
 **Screenshot:**  
-<img width="543" height="127" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/ec3a01ab-601a-45bc-8724-0fc3209bae82" />
+<img width="474" height="202" alt="Step 2 Router" src="https://github.com/user-attachments/assets/b4c49882-ef30-4972-9d1a-052cddd19857" />
 
 ## Key Observations  
 * **Reply received:** Confirms the computer can reach the router.  
