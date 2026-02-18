@@ -27,8 +27,9 @@ Devices in the network environment:
 - **Computer (IPv4 Address):** 172.20.6.168  
 
 **Screenshot:**  
-[Identifying Router]<img width="461" height="33" alt="Step 1,Identifying Router (Default Gateway)" src="https://github.com/user-attachments/assets/3ce15e0f-eb10-430a-bc5f-ee4c9dd57cef" />
+[Identifying Router]<<img width="746" height="124" alt="Step 2 , Identify IP Address" src="https://github.com/user-attachments/assets/9c59fe64-935f-41cc-94d9-5f48aba08963" />
 >
+
 ---
 
 ### Step 2: Verify IP Configuration
