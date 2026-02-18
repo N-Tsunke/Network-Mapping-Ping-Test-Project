@@ -73,7 +73,7 @@ Testing connection to your router (internal network).
 * Testing connection to the internet.
 
 **Screenshot:**  
-<<img width="516" height="216" alt="Step 3 Google" src="https://github.com/user-attachments/assets/5b5fe35c-a856-4ee0-a5fb-65691627e54e" />
+<img width="516" height="216" alt="Step 3 Google" src="https://github.com/user-attachments/assets/5b5fe35c-a856-4ee0-a5fb-65691627e54e" />
 
 # Key Observations  
 * **Reply received:** Confirms that the computer can reach an external server.  
@@ -81,7 +81,7 @@ Testing connection to your router (internal network).
 * **No packet loss:** Indicates a stable internet connection.  
 
 # Interpretation  
-* Your computer has a working internet connection.
+Computer has a working internet connection.
 
 ---
 
