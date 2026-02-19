@@ -12,7 +12,6 @@ This project demonstrates applied networking knowledge by mapping a home network
 - Identify connected devices and IP configurations
 - Test local and internet connectivity using `ping`
 - Explain DNS, ICMP, and routing
-- Document findings in a professional portfolio format
 
 ---
 
