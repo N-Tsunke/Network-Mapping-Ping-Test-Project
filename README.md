@@ -68,7 +68,7 @@ Local network is working correctly.
 # Step 3: Ping Google 
 
 ## What It Shows  
-* Testing connection to the internet.
+Testing connection to the internet.
 
 **Screenshot:**  
 <img width="516" height="216" alt="Step 3 Google" src="https://github.com/user-attachments/assets/5b5fe35c-a856-4ee0-a5fb-65691627e54e" />
@@ -86,7 +86,7 @@ Computer has a working internet connection.
 # Network Diagram 
 
 ## What It Shows  
-* A visual layout of the home network.
+A visual layout of the home network.
 
 **Screenshot:**  
 <img width="1024" height="1024" alt="Network Diagram 1" src="https://github.com/user-attachments/assets/7081608e-89f9-4296-bbb1-42bcd9a7c525" />
